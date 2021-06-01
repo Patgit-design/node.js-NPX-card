@@ -3,6 +3,8 @@
   "version": "1.2.0",
   "description": "a npx business card",
   "main": "card.js",
+  "bin": {
+    "patdesign": "card.js"},
   "scripts": {
     "dev": "nodemon card.js"
   },
